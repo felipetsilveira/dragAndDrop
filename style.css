@@ -1,0 +1,71 @@
+body {
+    background-color: #130f0d;
+    color: #fff;
+}
+
+.boards {
+    display: flex;
+}
+
+.board {
+    background-color: #008b8b;
+    border: solid 2px #FD951F11;
+    margin: 0 16px;
+}
+
+.board h3 {
+    padding: 16px;
+    margin: 0;
+    color: #b8860b;
+}
+
+.dropzone {
+    padding: 16px;
+    min-width: 332px;
+    min-height: 200px;
+}
+
+.card {
+    padding: 16px;
+    box-shadow: 0 2px 2px -1px #000;
+    border-radius: 4px;
+    width: 260px;
+    margin: 25px 0;
+    background-color: cadetblue;
+}
+
+.status {
+    width: 30px;
+    height: 8px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.status.green {
+    background-color: #008008;
+}
+
+.status.blue {
+    background-color: #000099;
+}
+
+.status.red {
+    background-color: #ff0009;
+}
+
+.highlight {
+    background-color: #FD951F;
+}
+
+.card, .dropzone {
+    transition: 400ms;
+}
+
+.arrastando {
+    cursor: move;
+    opacity: 0.3;
+}
+
+.em-cima {
+    background-color: #4cb137;
+}
